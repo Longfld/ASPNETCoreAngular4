@@ -1,5 +1,4 @@
 # ASPNETCoreAngular2
-Angular 2 ASP.NET Core with TypeScript solution
 
 Angular (& material)2 in ASP.NET Core with TypeScript by systemjs using Visual Studio 2015 or VS Code
 
