@@ -1,7 +1,7 @@
 # ASPNETCoreAngular2
 Angular 2 in ASP.NET Core with TypeScript solution
 
-Set up systemjs angular 2, Typscripscrip, material in asp.net core using Visual Studio 2015 or VS Code
+Set up angular 2, Typscripscrip, material by systemjs in asp.net core using Visual Studio 2015 or VS Code
 
 How to use it?
 
