@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 
-import { CharacterService } from '../shared/character.service';
+import { StaffService } from '../shared/staff.service';
 
 @Component({
     moduleId: module.id,
@@ -9,10 +9,10 @@ import { CharacterService } from '../shared/character.service';
 export class HomeComponent implements OnInit {
     characters: string[];
 
-    constructor(private characterService: CharacterService) { }
+    constructor(private staffService: StaffService) { }
 
     ngOnInit() {
-        this.characterService.getCharacters()
+        this.staffService.getStaff()
             .subscribe(characters => this.characters = characters);
     }
 }
