@@ -8,7 +8,7 @@ import { AppComponent }  from './app.component';
 import { HomeComponent } from './home/home.component';
 import { AboutComponent } from './about/about.component';
 import { routing, appRoutingProviders } from './app.routing';
-import { CharacterService } from './shared/character.service';
+import { StaffService } from './shared/staff.service';
 
 @NgModule({
     imports: [
@@ -19,7 +19,7 @@ import { CharacterService } from './shared/character.service';
     ],
     providers: [
         appRoutingProviders,
-        CharacterService
+        StaffService
     ],
     declarations: [
         AppComponent,
