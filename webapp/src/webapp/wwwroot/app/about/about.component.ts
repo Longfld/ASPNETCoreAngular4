@@ -8,7 +8,7 @@ import { Component } from '@angular/core';
                 <h2 class="mdl-card__title-text">About</h2>
             </div>
             <div class="mdl-card__supporting-text">
-                You're ready to start working on webapp <3
+                 <button md-raised-button>Click Material Button</button>
             </div>
         </div>
     `
