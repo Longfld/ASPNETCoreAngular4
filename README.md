@@ -20,13 +20,26 @@ If you are looking for angular (+ material) 2 by systemjs as frontend, asp.net c
 
 How to use it?
 
+
+For Visual Studio Code(VS Code):
+
 After download, go to the folder that contain package.json
 
-npm install
+>npm install
 
-If use Visual Studio 2015, just open it will do; If use VS Code then continue as below.
+>dotnet restore
 
-dotnet restore
+Now, if you are sure your global installed typescript is 2.0.3(that is version in our pacjage.json) or above, just need run:
 
-npm start  (this is for angular 2 compile)
-dotnet run
+>tsc
+
+If you are not sure ore above does not work, try this:
+> npm start  (this is for angular 2 compile)
+
+Finally start dotnet and browser http://localhost:5000
+>dotnet run
+
+
+
+For Visual Studio 2015:
+
