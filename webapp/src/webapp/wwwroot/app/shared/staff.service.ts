@@ -6,7 +6,7 @@ export class StaffService {
     
     constructor(private http: Http) { }
 
-    getCharacters() {
+    getStaff() {
         return this.http.get('api/Staff/GetStaff')
             .map(response => response.json());
     }
