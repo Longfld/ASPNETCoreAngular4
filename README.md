@@ -18,7 +18,7 @@ Now, if you are sure your global installed typescript is 2.0.3(that is version i
 
 >tsc
 
-If you are not sure ore above does not work, try this:
+If you are not sure or above does not work, try this:
 > npm start  (this is for angular 2 compile)
 
 Finally start dotnet and browser http://localhost:5000
