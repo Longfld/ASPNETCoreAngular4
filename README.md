@@ -14,7 +14,7 @@ After download, go to the folder that contain package.json
 
 >dotnet restore
 
-Now, if you are sure your global installed typescript is 2.0.3(that is version in our pacjage.json) or above, just need run:
+Now, if you are sure your global installed typescript is 2.0.3(that is version in our package.json) or above, just need run:
 
 >tsc
 
