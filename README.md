@@ -1,17 +1,4 @@
 # ASPNETCoreAngular2
-Not ready yet , please come back
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 Angular (& material)2 in ASP.NET Core with TypeScript by systemjs using Visual Studio 2015 or VS Code
@@ -20,8 +7,6 @@ If you are looking for angular (+ material) 2 by systemjs as frontend, asp.net c
 
 How to use it?
 
-
-For Visual Studio Code(VS Code):
 
 After download, go to the folder that contain package.json
 
@@ -40,6 +25,6 @@ Finally start dotnet and browser http://localhost:5000
 >dotnet run
 
 
+If you want to use Visual Studio 2015, open the project with VS2015 first, 
 
-For Visual Studio 2015:
 
