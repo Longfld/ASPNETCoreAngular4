@@ -14,12 +14,12 @@ After download, go to the folder that contain package.json
 
 >dotnet restore
 
-Now, if you are sure your global installed typescript is 2.0.3(that is version in our package.json) or above, just need run:
+Now, we need to compile typescript, if you are sure your global installed typescript is 2.0.3(that is version in our package.json) or above, just need run:
 
 >tsc
 
 If you are not sure or above does not work, try this:
-> npm start  (this is for angular 2 compile)
+> npm start  
 
 Finally start dotnet and browser http://localhost:5000
 >dotnet run
