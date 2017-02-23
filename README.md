@@ -14,7 +14,7 @@ After download, go to the folder that contain package.json
 
 >dotnet restore
 
-Now, we need to compile typescript, if you are sure your global installed typescript is 2.0.3(that is version in our package.json) or above, just need run:
+Now, we need to compile typescript, if you are sure your global installed typescript is 2.0.10(that is version in our package.json) or above, just need run:
 
 >tsc
 
