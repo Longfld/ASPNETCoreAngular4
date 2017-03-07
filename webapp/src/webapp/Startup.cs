@@ -14,7 +14,7 @@ namespace webapp
     {
         public Startup(IHostingEnvironment env)
         {
-            var builder = new ConfigurationBuilder(IHostingEnvironment env)
+            var builder = new ConfigurationBuilder()
                 .SetBasePath(env.ContentRootPath)
                 .AddJsonFile("appsettings.json", optional: true, reloadOnChange: true)
                 .AddJsonFile($"appsettings.{env.EnvironmentName}.json", optional: true)
@@ -40,6 +40,7 @@ namespace webapp
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app, IHostingEnvironment env, ILoggerFactory loggerFactory)
         {
+            loggerFactory.AddSerilog();
             loggerFactory.AddConsole(Configuration.GetSection("Logging"));
             loggerFactory.AddDebug();
 
@@ -47,8 +48,6 @@ namespace webapp
 
             app.UseStaticFiles(new StaticFileOptions
             {
-                loggerFactory.AddSerilog();
-                
                 FileProvider = new PhysicalFileProvider(Path.Combine(env.ContentRootPath, "node_modules")),
                 RequestPath = "/node_modules"
             });
