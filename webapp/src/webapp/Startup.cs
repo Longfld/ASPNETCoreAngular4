@@ -5,6 +5,7 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.FileProviders;
 using Microsoft.Extensions.Logging;
 using System.IO;
+using Serilog;
 
 namespace webapp
 {
@@ -18,6 +19,12 @@ namespace webapp
                 .AddJsonFile($"appsettings.{env.EnvironmentName}.json", optional: true)
                 .AddEnvironmentVariables();
             Configuration = builder.Build();
+            
+             Log.Logger = new LoggerConfiguration()
+                    .MinimumLevel.Error()   //.Debug() 
+                    .WriteTo.RollingFile(Path.Combine(env.ContentRootPath, "logs/{Date}.txt"))
+                    .CreateLogger();
+            
         }
 
         public IConfigurationRoot Configuration { get; }
@@ -39,6 +46,8 @@ namespace webapp
 
             app.UseStaticFiles(new StaticFileOptions
             {
+                loggerFactory.AddSerilog();
+                
                 FileProvider = new PhysicalFileProvider(Path.Combine(env.ContentRootPath, "node_modules")),
                 RequestPath = "/node_modules"
             });
