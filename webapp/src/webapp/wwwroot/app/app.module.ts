@@ -10,12 +10,15 @@ import { AboutComponent } from './about/about.component';
 import { routing, appRoutingProviders } from './app.routing';
 import { StaffService } from './shared/staff.service';
 
+import 'hammerjs';
+
 @NgModule({
     imports: [
         BrowserModule,
         FormsModule,
         HttpModule,
-        routing, MaterialModule.forRoot()
+        routing, 
+        MaterialModule
     ],
     providers: [
         appRoutingProviders,
