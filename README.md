@@ -14,7 +14,7 @@ After download, go to the folder that contain package.json
 
 >dotnet restore
 
-Now, we need to compile typescript, just need run:
+Now, we need to compile typescript, just need run this (and always run this after angular/typescript modify):
 
 > npm start  
 
