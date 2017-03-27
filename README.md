@@ -8,11 +8,11 @@ If you are looking for angular (+ material) 2 by systemjs as frontend, asp.net c
 How to use it?
 
 
-After download, go to the folder that contain package.json. Firstly, make sure your dotnet version is 1.0.0-preview2-1-003177 or before by run:
+After download, go to the folder that contain package.json. Firstly, check your dotnet version by run:
 
 >dotnet --version
 
->1.0.0-preview2-1-003177
+As in global.json : "version": "1.0.0-preview2-003121"
 
 Then you can:
 
