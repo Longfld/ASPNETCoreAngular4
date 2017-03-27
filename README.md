@@ -11,6 +11,7 @@ How to use it?
 After download, go to the folder that contain package.json. Firstly, make sure your dotnet version is 1.0.0-preview2-1-003177 or before by run:
 
 >dotnet --version
+
 >1.0.0-preview2-1-003177
 
 Then you can:
