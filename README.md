@@ -3,7 +3,7 @@
 
 Angular 4 (& material) in ASP.NET Core with TypeScript by systemjs
 
-If you are looking for angular (+ material) 2 by systemjs as frontend, asp.net core web api as backend, there is the solution.
+If you are looking for angular 4 (+ material) by systemjs as frontend, asp.net core web api as backend, there is the solution.
 
 How to use it?
 
