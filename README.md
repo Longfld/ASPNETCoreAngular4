@@ -1,5 +1,6 @@
 # ASPNETCoreAngular
 
+#This is for project.json or VS 2015 version
 
 Angular 4 (& material) in ASP.NET Core with TypeScript by systemjs
 
