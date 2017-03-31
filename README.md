@@ -2,6 +2,8 @@
 
 #This is for project.json or VS 2015 version
 
+Please check https://github.com/Longfld/ASPNETCoreAngular for VS2017 or csproj version
+
 Angular 4 (& material) in ASP.NET Core with TypeScript by systemjs
 
 If you are looking for angular 4 (+ material) by systemjs as frontend, asp.net core web api as backend, there is the solution.
